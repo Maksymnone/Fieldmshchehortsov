@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size:  16px;
+    font-weight: normal;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container_form {
+    text-align: center;
+    margin-top: 130px;
+}
+
+.title {
+    font-size: 36px;
+    line-height: 64px;
+    margin-bottom: 36px;
+}
+
+.input {
+    border: 1px solid #000000;
+    margin-bottom: 36px;
+    padding-left: 23px;
+}
+
+.input, .input::placeholder, .button {
+    font-size: 36px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.input, .button {
+    max-width: 655px;
+    width: 100%;
+    height: 69px;
+    border-radius: 5px; 
+    box-sizing: border-box;
+}
+
+.button {
+    background: #66BB6A;
+    border:  none;
+    color: white;
+}
+.button:hover {
+    background: white;
+    border:  1px solid #66BB6A;
+    color: #66BB6A;
+    transition: 1s;
+}
+
+/* Section 2 */
+
+.about_flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about {
+    margin-top: 83px;
+
+}
+.line {
+    background: #f7f7f7;
+    border: none;
+    height: 2px;
+    margin-bottom: 79px;
+
+}
+.field {
+    background-image: url("../img/farm1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    max-width: 512px; 
+    width: 100%;
+    padding: 39px 0 56px 72px;
+    box-sizing: border-box;
+}
+.field_pretitle {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 2.8px;
+    color: #66BB6A;
+    margin-bottom: 17px;
+}
+
+.field_line {
+    width: 56px;
+    height: 4px;
+    border: none;
+    background: white;
+    margin-bottom: 61px;
+}
+
+.field_title {
+    font-size: 31px;
+    line-height: 40px;
+    color: white;
+    margin-bottom: 18px;
+    max-width: 248px;
+}
+
+.field_text {
+    font-size: 16px;
+    line-height: 24px;
+    color: #DAEFD2;
+    margin-bottom: 28px;
+    max-width: 248px;
+}
+
+.field_button {
+    width: 200px;
+    height: 48px;
+    background: #DAEFD2;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    color: #66BB6A;
+    border-radius: 5px;
+}
+
+.field_button:hover {
+    color: #DAEFD2;
+    background-color: #66BB6A;
+    transition: 1s;
+    border: none; 
+}
+
+.Sale {
+    background: rgba(18, 17, 17, 0.4);
+    display: inline-block;
+    position:  absolute;
+    top: 0;
+    right: 0;
+}
+.Sale_text {
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #FF0F00;
+    padding: 7px 14px;
+
+}
